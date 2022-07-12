@@ -1,0 +1,5 @@
+pour faire le panier, fin le panier la page en mode :
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:ital,wght@1,500&display=swap');
+
+10 types de panier :
+https://www.codeur.com/blog/panier-e-commerce-reussi/
