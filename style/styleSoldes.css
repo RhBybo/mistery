@@ -1,0 +1,24 @@
+.soldes-body {
+    width: 100%;
+    height: 1000px;
+}
+
+.hair-soldes {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.hair-soldes img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hair-soldes p, h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
