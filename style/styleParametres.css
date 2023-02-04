@@ -1,0 +1,78 @@
+.body-parametres {
+    min-height: 500px;
+    width: 400px;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    box-shadow:1px 2px 5px gray;
+}
+
+.body-parametres h2 {
+    font-size: 22px;
+}
+
+.info-client {
+    height: 30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.info-client p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+#modifier {
+    font-size: 12px;
+    width: 70px;
+    height: 20px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 2px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#modifier:hover {
+    background-color: #fff;
+    color: gray;
+    border: 1px solid gray;
+}
+
+#poche-fin {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    position: relative;
+}
+
+#modifier-mess {
+    margin-top: 10px;
+    font-size: 10px;
+    display: none;
+
+    transition: 0.3s;
+}
+
+input {
+    text-align: center;
+}
+
+input::placeholder {
+    text-align: center;
+}

@@ -1,0 +1,241 @@
+.men-body {
+    width: 100%;
+    min-height: 800px;
+    margin-left: 20;
+}
+
+/*v1 de mystery's-t-shirts.css*/
+.body-classic-fit-one {
+    min-height: 500px;
+    text-decoration: none;
+}
+
+.direction-t-shirt a {
+    color: gray;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.anyDiv {
+    display: flex;
+    height: 600px;
+    margin-top: 10px;
+}
+
+/*Partie de l'image du t-shirt à vendre*/
+.img-t-shirt {
+    display: inline-block;
+
+    width: 50%;
+    height: 100%;
+}
+
+.img-t-shirt img {
+    height: 100%;
+    width: 100%;
+}
+
+/*Parte des image de ce t-shirt en question, on peut les voir*/
+.img-of-this-t-shirt {
+    position: absolute;
+
+    margin-top: 520px;
+}
+
+.img-of-this-t-shirt img {
+    height: 60px;
+    width: 20%;
+    
+    margin-left: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px gray, 0.1em 0 .4em black;
+}
+
+/*Partie de la description du t-shirt à vendre*/
+.description-t-shirt {
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 50px;
+
+    width: 50%;
+}
+
+.solde-t-shirt {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    color: white;
+    background-color: #66cca3;
+    border-radius: 5px;
+}
+
+h3 {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #66cca3;
+}
+
+/*Choisir la taille et la couleur du t-shirt en question*/
+.type-t-shirt {
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+/*Les lettres pour chosir la taille du t shirt*/
+.boite-taille {
+    display: flex;
+    margin-left: 5px;
+}
+
+.quelle-taille {
+    justify-content: center;
+	text-align: center;
+	width: 15%;
+	background-color: #8e989c;
+    border: 1px solid #8e989c;
+	border-radius: 25px;
+	color: white;
+	cursor: pointer;
+    text-align: center;
+}
+
+.quelle-taille:hover {
+    color: #8e989c;
+	background-color: white;
+    transition: 0.4s;
+}
+
+.color-t-shirt, .taille-t-shirt{
+    min-height: 40px;
+    margin-bottom: 20px;
+}
+
+/*Message d'erreur si le client n'a pas choisis la taille du t shirt*/
+#erreur {
+    color: red;
+    font-size: 15px;
+}
+
+/*Ajouter au panier le t'shirt en question*/
+.ajouter-au-panier {
+    margin-top: 30px;
+    padding-top: 3px;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    background-color: #43494f;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.ajouter-au-panier:hover {
+    background-color: #fff;
+    color: black;
+    border: 0.2px solid black;
+    transition: 0.4s;
+}
+
+/*Les aides pour que le client puisse choisir et acheter ce qu'il veut:
+    Guide taille
+    Livraison
+*/
+
+.aide-t-shirt a{
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+.aide-t-shirt p {
+    font-weight: 100;
+    margin-left: 50px;
+    color: gray;
+}
+
+.aide-t-shirt {
+    width: 100%;
+    height: 200px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.aide-t-shirt-2 {padding-top: 50px;}
+
+.boite-couleur-img {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.boite-couleur-img div {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.boite-couleur-img img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid gray;
+
+    cursor: pointer;
+}
+
+/*Clique sur le bouton Ajouter au panier
+.validation-to-panier {
+	background-color: #fff;
+	min-height: 50px;
+	min-width: 200px;
+	box-shadow: 0 5px 45px rgba(0, 0, 0, 0.25);
+	position: absolute;
+	top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	display: none;
+	border-radius: 10px;
+    display: none;
+
+    overflow-y: hidden;
+}
+
+.validation-to-panier.open {
+	display: block;
+}
+
+.img-validation-to-panier {
+    height: 80px;
+    float: left;
+}
+
+.validation-to-panier p {
+	font-size: 13px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.validation-to-panier button {
+	height: 25px;
+	width: 35px;
+	border-radius: 5px;
+	background-color: gray;
+	color: #fff;
+	border: none;
+	margin-left: 40px;
+    padding: 5px;
+	cursor: pointer;
+
+	transition: 0.3s;
+}
+
+.validation-to-panier button:hover {
+	background-color: #fff;
+	color: gray;
+}*/
